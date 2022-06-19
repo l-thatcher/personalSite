@@ -1,7 +1,10 @@
+import { FaFacebookSquare } from 'react-icons/Fa';
+
+
 export default function Footer({ children }) {
     return (
-        <div className='absolute bottom-0 w-full flex items-center justify-center'>
-            <img src='interlocutorLogoText.png' alt="Logo" width={200} height={200}/>
+        <div className='bottom-0 w-full flex items-center justify-center pt-2 pb-2'>
+            <img src='interlocutorLogoText.png' alt="Logo" width={150} height={150}/>
         </div>
     )
 }
