@@ -4,10 +4,9 @@ import Footer from './footer'
 
 export default function Layout({ children }) {
     return (
-        <>
-            <Navbar />
-            <main className='p-3 h-screen'/>
-            <Footer clasName='bg-green-500'/>
-        </>
+        <div className="flex flex-col h-screen justify-between">
+            <Navbar className="h-10 sticky"/>
+            <main className="mb-auto top-20 bg-amber-300">{children}</main>
+        </div>
     )
 }
