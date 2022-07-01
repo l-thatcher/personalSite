@@ -1,4 +1,3 @@
-import { FaFacebookSquare } from 'react-icons/Fa';
 
 
 export default function Footer({ children }) {
